@@ -5,6 +5,11 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/dictionaries
@@ -68,6 +73,20 @@ fabric.properties
 ### Scala ###
 *.class
 *.log
+
+### SBT ###
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
 
 
 # End of https://www.gitignore.io/api/scala,intellij
