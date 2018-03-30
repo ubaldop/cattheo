@@ -17,4 +17,4 @@ Here I'll track all the challenges implemented while reading the blog posts.
 
 ### Acknowledgements
 
-I am grateful to (@marcosh)[https://github.com/marcosh] because he suggested to use a programming language I am not really familiar with for the implementations of the exercises to make them more challenging.
+I am grateful to [@marcosh](https://github.com/marcosh) because he suggested to use a programming language I am not really familiar with for the implementations of the exercises to make them more challenging.
