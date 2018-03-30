@@ -12,8 +12,16 @@ class ChallengeOneSpec extends FlatSpec with Matchers {
 
   it should "implement composition" in {
     def doubler(x: Int): Int = x*2
-    composition(doubler, (x: Int) => x.toString)(40) shouldBe "80"
-    composition(doubler, (x: Int) => x / 2)(200) shouldBe 200
+    def stringifier(x: Int): String = x.toString
+    composition(doubler, stringifier)(40) shouldBe "80"
+    composition(stringifier, x => "test "+x)(1984) shouldBe "test 1984"
+  }
+
+  it should "implement composition with identity unit" in {
+    def doubler(x: Int): Int = x*2
+    def stringifier(x: Int): String = x.toString
+    composition(doubler, identity[Int])(40) shouldBe 80
+    composition(identity[Int], stringifier)(1984) shouldBe "1984"
   }
 
 }
