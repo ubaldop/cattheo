@@ -1,5 +1,4 @@
-Challenges for [Types and Functions](https://bartoszmilewski.com/2014/11/24/types-and-functions/)
-===
+### Challenges from [Types and Functions](https://bartoszmilewski.com/2014/11/24/types-and-functions/)
 
 - [X] Define a higher-order function (or a function object) memoize in your favorite language. This function takes a pure function f as an argument and returns a function that behaves almost exactly like f, except that it only calls the original function once for every argument, stores the result internally, and subsequently returns this stored result every time it’s called with the same argument. You can tell the memoized function from the original by watching its performance. For instance, try to memoize a function that takes a long time to evaluate. You’ll have to wait for the result the first time you call it, but on subsequent calls, with the same argument, you should get the result immediately.
 - [ ] Try to memoize a function from your standard library that you normally use to produce random numbers. Does it work?
