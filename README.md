@@ -14,6 +14,7 @@ The blog posts by Bartosz are available [here](https://bartoszmilewski.com/2014/
 Here I'll track all the challenges implemented while reading the blog posts.  
 
 - challenges from [**Category: The Essence of Composition**](https://github.com/P3trur0/cattheo/tree/master/challenges/post_1.md)
+- challenges from [**Types and Functions**](https://github.com/P3trur0/cattheo/tree/master/challenges/post_2.md)
 
 ### Acknowledgements
 
