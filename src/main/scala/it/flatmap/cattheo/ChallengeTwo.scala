@@ -3,6 +3,7 @@ package it.flatmap.cattheo
 import scala.collection.mutable
 
 object ChallengeTwo {
+  
   def buildMemoize[A,B](f: A => B): A => B = {
     val cache = mutable.HashMap[A, B]()
 
@@ -15,8 +16,7 @@ object ChallengeTwo {
         result
       }
     }
-
     (x: A) => memoize(x, f)
   }
-
+  
 }
