@@ -16,6 +16,10 @@ Here I'll track all the challenges implemented while reading the blog posts.
 - challenges from [**Category: The Essence of Composition**](https://github.com/P3trur0/cattheo/tree/master/challenges/post_1.md)
 - challenges from [**Types and Functions**](https://github.com/P3trur0/cattheo/tree/master/challenges/post_2.md)
 
+### Notes
+
+[Here](https://github.com/P3trur0/cattheo/tree/master/notes.md) I'll sketch some notes taken during the reading.
+
 ### Acknowledgements
 
 I am grateful to [@marcosh](https://github.com/marcosh) because he suggested to use a programming language I am not really familiar with for the implementations of the exercises to make them more challenging.
