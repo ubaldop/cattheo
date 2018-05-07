@@ -7,11 +7,11 @@
     - A graph with a single node and 26 arrows marked with the letters of the alphabet: a, b, c … z.
 
 <p align="center">
-  <img src="https://github.com/P3trur0/cattheo/blob/master/challenge_3_1.png?raw=true" alt="Cattheo"/>
+  <img src="https://github.com/P3trur0/cattheo/blob/master/img/challenge_3_1.png?raw=true" alt="Cattheo"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/P3trur0/cattheo/blob/master/challenge_3_1_2.png?raw=true" alt="Cattheo"/>
+  <img src="https://github.com/P3trur0/cattheo/blob/master/img/challenge_3_1_2.png?raw=true" alt="Cattheo"/>
 </p>
 
 - [X] What kind of order is this?
@@ -25,12 +25,12 @@
 
 - [X] Considering that Bool is a set of two values True and False, show that it forms two (set-theoretical) monoids with respect to, respectively, operator `&&` (AND) and `||` (OR).
 
-  See my implementation in Scala package [`it.flatmap.cattheo.monoids`]();
+  See my implementation [here](https://github.com/P3trur0/cattheo/tree/master/src/main/scala/it/flatmap/cattheo/monoids) in the Scala package `it.flatmap.cattheo.monoids`;
 
 - [X] Represent the Bool monoid with the AND operator as a category: List the morphisms and their rules of composition.
 
 <p align="center">
-  <img src="https://github.com/P3trur0/cattheo/blob/master/challenge_3_4.png?raw=true" alt="Cattheo"/>
+  <img src="https://github.com/P3trur0/cattheo/blob/master/img/challenge_3_4.png?raw=true" alt="Cattheo"/>
 </p>
 
 **The morphisms are `&&`, the identity is `true`. The composition as following holds: `&&(f, true)` results as f**.
