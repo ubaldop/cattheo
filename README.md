@@ -5,7 +5,7 @@
 Cattheo
 ===
 
-This repository contains my ~~**[Scala]**~~ [**Agda**] implementations of Bartosz Milewski's Category Theory for Programmers challenges.  
+This repository contains my implementations of Bartosz Milewski's Category Theory for Programmers challenges.  
 The blog posts by Bartosz are available [here](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/).
 
 ---
@@ -13,8 +13,23 @@ The blog posts by Bartosz are available [here](https://bartoszmilewski.com/2014/
 ### Challenges
 Here I'll track all the challenges implemented while reading the blog posts.  
 
-- challenges from [**Category: The Essence of Composition**](https://github.com/P3trur0/cattheo/tree/master/challenges/post_1.md)
-- challenges from [**Types and Functions**](https://github.com/P3trur0/cattheo/tree/master/challenges/post_2.md)
+#### Part 1
+- challenges from [**Category: The Essence of Composition**](https://github.com/P3trur0/cattheo/tree/master/challenges/post_1_1.md)
+- challenges from [**Types and Functions**](https://github.com/P3trur0/cattheo/tree/master/challenges/post_1_2.md)
+- challenges from [**Categories great and small**](https://github.com/P3trur0/cattheo/tree/master/challenges/post_1_3.md)
+- challenges from [**Kleisli Categories**](https://github.com/P3trur0/cattheo/tree/master/challenges/post_1_4.md)
+
+---
+
+#### Part 2
+WIP
+
+---
+
+#### Part 3
+WIP
+
+---
 
 ### Notes
 
