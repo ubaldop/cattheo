@@ -37,7 +37,7 @@
 
 - [X] Represent addition modulo 3 as a monoid category.
 
-**Here the identity morphism, according to the following definition "_The identity morphism is the neutral element of this product._" should be 3**.
+**Here the identity morphism, according to the following definition "_The identity morphism is the neutral element of this product._" should be 0. Then we'll have other two morphisms, namely 1 and 2.**.
 
 
 
